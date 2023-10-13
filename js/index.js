@@ -5,6 +5,8 @@ const form = document.getElementById("search-form");
 const query = document.getElementById("search-input");
 const result = document.getElementById("result");
 
+
+
 let page = 1;
 let isSearching = false;
 
@@ -48,7 +50,7 @@ function createMovieCard(movie) {
                         <span style="color: #12efec">${formattedDate}</span>
                         </div>
                     <div class="right-content">
-                        <a href="${imagePath}" target="_blank" class="card-btn">See Cover</a>
+                        <a href="${imagePath}" target="_blank" class="card-btn">Ver Portada</a>
                     </div>
                 </div>
                 <div class="info">
